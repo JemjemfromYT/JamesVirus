@@ -26,7 +26,96 @@
     
     <p>This <mark>Virus</mark> Is Created By James S....... Which Will Track Your Screen</p>
    
+    <details>public static void main(String[] args)throws IOException{
+        // TODO code application logic here
+        BufferedReader br = new BufferedReader (new InputStreamReader (System.in));
+        
+        System.out.print("Welcome To Patience Fishlanding");
+        System.out.println("");
+        
+        String a = "Bangus";
+        double bangusPrice = 200;
+        
+        String b = "Tamban";
+        double tambanPrice = 100;
+        
+        String c = "Tilapia";
+        double tilapiaPrice = 150;
+        
+        double x = 0;
+        
+        
+        System.out.println("We sell the following fishes: ");
+        System.out.println("a. Bangus = 200 per kilo");
+        System.out.println("b. Tamban = 100 perkilo");
+        System.out.println("c. Tilapia = 150 per kilo");
+        
+        
+        System.out.println("What fish would you like to buy? Enter the letter of choice: ");
+        char choice = br.readLine().charAt(0);
+        
+        if (choice == 'a')
+        {
+            System.out.println("You chose " + a + " and that is " + bangusPrice + " perkilo");
+            System.out.println("How many kilos would you like to buy ?");
+            String input = br.readLine();
+            double buyed = Double.parseDouble(input);
+            double result = bangusPrice*buyed;
+            System.out.println("The total would be " + result);
+           System.out.println("Please enter the amount of cash handed by buyer: ");
+           double cash = Double.parseDouble(br.readLine());
+           x = cash - result;
+           System.out.println("Your change is " + x + " pesos. ");
+        }
+        
+        
+        
+        
+        else if (choice == 'b')
+        {
+            System.out.println("You chose " + b + " and that is " + tambanPrice + " perkilo");
+            System.out.println("How many kilos would you like to buy ?");
+            String input2 = br.readLine();
+            double buyed2 = Double.parseDouble(input2);
+            double result2 = tambanPrice*buyed2;
+            System.out.println("The total would be " + result2);
+           System.out.println("Please enter the amount of cash handed by buyer: ");
+           double cash = Double.parseDouble(br.readLine());
+           x = cash - result2;
+           System.out.println("Your change is " + x + " pesos. ");
+        }
+         
+         
+         
+         else if (choice == 'c')
+        {
+            System.out.println("You chose " + c + " and that is " + tilapiaPrice + " perkilo");
+            System.out.println("How many kilos would you like to buy ?");
+            String input3 = br.readLine();
+            double buyed3 = Double.parseDouble(input3);
+            double result3 = tilapiaPrice*buyed3;
+            System.out.println("The total would be " + result3);
+           System.out.println("Please enter the amount of cash handed by buyer: ");
+           double cash = Double.parseDouble(br.readLine());
+           x = cash - result3;
+           System.out.println("Your change is " + x + " pesos. ");
+        }
+          
+          
+        
+         else {
+             System.out.println("Fish chosen is not on the choices");
+         }
+        
+        
+        
+        
+        
+        
+        
+    }    
     
+}</details>
     
     
     <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnkWOOTf3bqiqS_xwnVDD88ZbhA6kTiYnAew&usqp=CAU">This is the link XD</a>
