@@ -48,7 +48,7 @@ animation: glow 0.9s ease-in-out infinite alternate; /* Animation with 1s durati
 }
 
 #Start {
-  background-image: url('images/glowingRed.gif'); /* Replace with your texture image */
+  background-image: url('glowingRed.gif'); /* Replace with your texture image */
   background-size: cover;
   color: white;
   padding: 15px 30px;
