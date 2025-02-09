@@ -28,3 +28,37 @@ body {
 color: orange;
 background-color: g;
 }
+
+#remasterTextId {
+position: absolute;
+bottom:94%;  
+left:22%;
+font-size: 10px;
+animation: glow 0.9s ease-in-out infinite alternate; /* Animation with 1s duration */
+}
+
+
+@keyframes glow {
+  0% {
+    text-shadow: 0 0 500px rgba(255, 255, 0, 0.5); /* Yellow glow */
+  }
+  100% {
+    text-shadow: 0 0 20px rgba(255, 255, 0, 1); /* Brighter yellow glow */
+  }
+}
+
+#Start {
+  background-image: url('images/glowingRed.gif'); /* Replace with your texture image */
+  background-size: cover;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  position: absolute;
+  left: 194px;
+  top: 1px;
+  
+}
+
+
