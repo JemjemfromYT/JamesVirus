@@ -2,9 +2,9 @@ const startButton = document.querySelector('.navelement:nth-child(1)');
 const infoButton = document.getElementById('infoButton');
 const quitButton = document.getElementById('quitButton');
 const clickSound = document.getElementById('clickSound'); // Get the audio element
-let remasterTextId‎ = document.getElementById ("quitButton‎")
+let Start = document.getElementById ("Start")
 
-remasterTextId.addEventListener("click", function(){
+Start.addEventListener("click", function(){
 alert("sorry I am lazy rn to do the remaster version");
 });
 
